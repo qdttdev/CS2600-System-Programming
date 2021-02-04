@@ -1,0 +1,48 @@
+MARBLES COUNT: 78
+User     input (1-39): 39
+Computer input (1-39): 14
+
+MARBLES COUNT: 25
+User     input (1-12): 12
+Computer input (1-12): 1
+
+MARBLES COUNT: 12
+User     input (1-6): 5
+Computer input (1-6): 3
+
+MARBLES COUNT: 4
+User     input (1-2): 2
+Computer input (1-2): 2
+
+***** It's a tie! - Both User and Computer wins! *****
+
+
+MARBLES COUNT: 15
+User     input (1-7): 7
+Computer input (1-7): 7
+
+
+MARBLES COUNT: 1
+
+***** User takes the last marble - Computer Wins! *****
+
+
+
+MARBLES COUNT: 74
+User     input (1-37): 0
+Invalid user input, please try again
+User     input (1-37): 38
+Invalid user input, please try again
+User     input (1-37): 37
+Computer input (1-37): 30
+
+MARBLES COUNT: 7
+User     input (1-3): 2
+Computer input (1-3): 3
+
+MARBLES COUNT: 2
+User     input (1-1): 1
+
+MARBLES COUNT: 1
+
+***** Computer takes the last marble - User Wins! *****
