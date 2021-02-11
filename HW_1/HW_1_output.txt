@@ -1,61 +1,102 @@
-MARBLES COUNT: 45
-User input (1-22): 1
-
-MARBLES COUNT: 44
-Computer input (1-22): 4
+MARBLES COUNT PILE #1: 60
+MARBLES COUNT PILE #2: 36
+MARBLES COUNT PILE #3: 42
 
 
-MARBLES COUNT: 40
-User input (1-20): 20
+Which pile do you want to take from? (1-3): 1
+User input (1-30): 30
+MARBLES COUNT PILE #1: 30
+Computer input (1-15): 8
+MARBLES COUNT PILE #1: 22
 
-MARBLES COUNT: 20
-Computer input (1-10): 8
+Which pile do you want to take from? (1-3): 1
+User input (1-11): 11
+MARBLES COUNT PILE #1: 11
+Computer input (1-5): 1
+MARBLES COUNT PILE #1: 10
 
+Which pile do you want to take from? (1-3): 2
+User input (1-18): 18
+MARBLES COUNT PILE #2: 18
+Computer input (1-9): 1
+MARBLES COUNT PILE #2: 17
 
-MARBLES COUNT: 12
-User input (1-6): 3
-
-MARBLES COUNT: 9
+Which pile do you want to take from? (1-3): 2
+User input (1-8): 9
+Invalid user input, please try again
+User input (1-8): 8
+MARBLES COUNT PILE #2: 9
 Computer input (1-4): 2
+MARBLES COUNT PILE #2: 7
+
+Which pile do you want to take from? (1-3): 3
+User input (1-21): 21
+MARBLES COUNT PILE #3: 21
+Computer input (1-10): 8
+MARBLES COUNT PILE #3: 13
+
+Which pile do you want to take from? (1-3): 3
+User input (1-6): 6
+MARBLES COUNT PILE #3: 7
+Computer input (1-3): 3
+MARBLES COUNT PILE #3: 4
+
+Which pile do you want to take from? (1-3): 0
+Invalid input, please try again
 
 
-MARBLES COUNT: 7
+Which pile do you want to take from? (1-3): 4
+Invalid input, please try again
+
+
+Which pile do you want to take from? (1-3): 3
+User input (1-2): 2
+MARBLES COUNT PILE #3: 2
+Computer input (1-1): 1
+MARBLES COUNT PILE #3: 1
+
+***** User takes the last marble - Computer Wins! *****
+
+
+Which pile do you want to take from? (1-3): 3
+Game Finished
+
+
+Which pile do you want to take from? (1-3): 2
 User input (1-3): 3
-
-MARBLES COUNT: 4
+MARBLES COUNT PILE #2: 4
 Computer input (1-2): 2
+MARBLES COUNT PILE #2: 2
+
+Which pile do you want to take from? (1-3): 3
+Game Finished
 
 
-MARBLES COUNT: 2
+Which pile do you want to take from? (1-3): 2
 User input (1-1): 1
-
-MARBLES COUNT: 1
+MARBLES COUNT PILE #2: 1
 
 ***** Computer takes the last marble - User Wins! *****
 
 
+Which pile do you want to take from? (1-3): 1
+User input (1-5): 5
+MARBLES COUNT PILE #1: 5
+Computer input (1-2): 1
+MARBLES COUNT PILE #1: 4
 
-MARBLES COUNT: 14
-User input (1-7): 2
-
-MARBLES COUNT: 12
-Computer input (1-6): 5
-
-
-MARBLES COUNT: 7
-User input (1-3): 1
-
-MARBLES COUNT: 6
-Computer input (1-3): 3
+Which pile do you want to take from? (1-3): 2
+Game Finished
 
 
-MARBLES COUNT: 3
-User input (1-1): 1
+Which pile do you want to take from? (1-3): 3
+Game Finished
 
-MARBLES COUNT: 2
+
+Which pile do you want to take from? (1-3): 1
+User input (1-2): 2
+MARBLES COUNT PILE #1: 2
 Computer input (1-1): 1
-
-
-MARBLES COUNT: 1
+MARBLES COUNT PILE #1: 1
 
 ***** User takes the last marble - Computer Wins! *****
