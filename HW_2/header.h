@@ -9,7 +9,6 @@
 #define HEADER_H_
 
 #include <stdio.h>		// standard I/O functions
-#include <stdbool.h>	// boolean
 #include <string.h>		// strcmp
 #include <stdlib.h>		// malloc
 
