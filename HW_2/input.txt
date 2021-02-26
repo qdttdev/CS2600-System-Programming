@@ -1,0 +1,5 @@
+Sam, 15, banana
+Julie, 23, grape
+Scott, 12, kiwi
+Lumi, 1, pumpkin
+Caroline, 22, durian
