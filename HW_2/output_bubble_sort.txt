@@ -1,0 +1,105 @@
+
+WELCOME TO COLUMN SORTER PROGRAM
+The entered sorted column is: 1
+The sorting algorithm chosen is: Bubble Sort
+
+The list of sorting algorithms:
+	0 - Bubble Sort
+	1 - Insertion Sort
+	2 - Merge Sort
+	3 - Quick Sort
+	4 - Selection Sort
+
+Opening file...
+
+------------------------------
+OUTPUT THE DATA BEFORE SORTING
+------------------------------
+Sam, 15, banana
+Julie, 23, grape
+Scott, 12, kiwi
+Lumi, 1, pumpkin
+Caroline, 22, durian
+
+Sorting using 0 - Bubble Sort...
+
+------------------------------------------
+OUTPUT THE DATA AFTER SORTING BY COLUMN #1
+------------------------------------------
+Caroline, 22, durian
+Julie, 23, grape
+Lumi, 1, pumpkin
+Sam, 15, banana
+Scott, 12, kiwi
+
+
+
+
+WELCOME TO COLUMN SORTER PROGRAM
+The entered sorted column is: 2
+The sorting algorithm chosen is: Bubble Sort
+
+The list of sorting algorithms:
+	0 - Bubble Sort
+	1 - Insertion Sort
+	2 - Merge Sort
+	3 - Quick Sort
+	4 - Selection Sort
+
+Opening file...
+
+------------------------------
+OUTPUT THE DATA BEFORE SORTING
+------------------------------
+Sam, 15, banana
+Julie, 23, grape
+Scott, 12, kiwi
+Lumi, 1, pumpkin
+Caroline, 22, durian
+
+Sorting using 0 - Bubble Sort...
+
+------------------------------------------
+OUTPUT THE DATA AFTER SORTING BY COLUMN #2
+------------------------------------------
+Lumi, 1, pumpkin
+Scott, 12, kiwi
+Sam, 15, banana
+Caroline, 22, durian
+Julie, 23, grape
+
+
+
+
+WELCOME TO COLUMN SORTER PROGRAM
+The entered sorted column is: 3
+The sorting algorithm chosen is: Bubble Sort
+
+The list of sorting algorithms:
+	0 - Bubble Sort
+	1 - Insertion Sort
+	2 - Merge Sort
+	3 - Quick Sort
+	4 - Selection Sort
+
+Opening file...
+
+------------------------------
+OUTPUT THE DATA BEFORE SORTING
+------------------------------
+Sam, 15, banana
+Julie, 23, grape
+Scott, 12, kiwi
+Lumi, 1, pumpkin
+Caroline, 22, durian
+
+Sorting using 0 - Bubble Sort...
+
+------------------------------------------
+OUTPUT THE DATA AFTER SORTING BY COLUMN #3
+------------------------------------------
+Sam, 15, banana
+Caroline, 22, durian
+Julie, 23, grape
+Scott, 12, kiwi
+Lumi, 1, pumpkin

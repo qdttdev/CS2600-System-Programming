@@ -1,0 +1,22 @@
+INVALID INPUT
+Example usage: HW_2 1 0
+Enter -h in the command line to see parameters' conditions.
+
+
+
+---------------------
+COLUMN SORTER PROGRAM
+---------------------
+This program expects 2 integers on the command line.
+
+The first integer determines the column to be sorted (1-3):
+	1 - Name
+	2 - Age
+	3 - Fruit
+
+The second integer determines the sorting algorithm used (0-4):
+	0 - Bubble Sort
+	1 - Insertion Sort
+	2 - Merge Sort
+	3 - Quick Sort
+	4 - Selection Sort

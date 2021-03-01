@@ -1,13 +1,6 @@
-/*
- * F2_ReadInput.c
- *
- *  Created on: Feb 26, 2021
- *      Author: ctqdt
- */
-
 #include "header.h"
 
-void ReadInput (FILE *fin, struct Person pArr[5])
+void ReadInput (FILE *fin, struct Person pArr[])
 {
 	size_t lineBuffSize = 100;
 	char* lineBuff = malloc(lineBuffSize);
@@ -15,7 +8,7 @@ void ReadInput (FILE *fin, struct Person pArr[5])
 
 	while(getline(&lineBuff, &lineBuffSize, fin) != -1)
 	{
-		printf("Reading in: %s", lineBuff);
+//		printf("Reading in: %s", lineBuff);
 
 		char* token;
 		char* element;
