@@ -1,6 +1,10 @@
 #   Caroline Ta
 #   CS2600.02 - Homework 3
-#   05/10/21
+#   05/17/21
+
+# ------------------------------- Sample Run 0 ------------------------------
+# qdttdev@DESKTOP-3LNQCIN:~$ ./cal.sh June 21
+# Invalid month, please try again (example: Jan, Feb, Mar,...)
 
 # ------------------------------- Sample Run 1 ------------------------------
 # qdttdev@DESKTOP-3LNQCIN:~$ ./cal.sh 0 5
@@ -13,38 +17,36 @@
 # ------------------------------- Sample Run 3 ------------------------------
 # qdttdev@DESKTOP-3LNQCIN:~$ ./cal.sh 5 2021
 
-#             May, 2021
-#   Su  Mo  Tu  We  Th  Fr  Sa
-#                            1
-#    2   3   4   5   6   7   8
-#    9  10  11  12  13  14  15
-#   16  17  18  19  20  21  22
-#   23  24  25  26  27  28  29
-#   30  31
+#        May, 2021
+#  Su Mo Tu We Th Fr Sa
+#                     1
+#   2  3  4  5  6  7  8
+#   9 10 11 12 13 14 15
+#  16 17 18 19 20 21 22
+#  23 24 25 26 27 28 29
+#  30 31
 
 # ------------------------------- Sample Run 4 ------------------------------
-# qdttdev@DESKTOP-3LNQCIN:~$ chmod 777 cal.sh
-# qdttdev@DESKTOP-3LNQCIN:~$ ./cal.sh May 21
+# qdttdev@DESKTOP-3LNQCIN:~$ ./cal.sh Apr 2021
 
-#             May, 2021
-#   Su  Mo  Tu  We  Th  Fr  Sa
-#                            1
-#    2   3   4   5   6   7   8
-#    9  10  11  12  13  14  15
-#   16  17  18  19  20  21  22
-#   23  24  25  26  27  28  29
-#   30  31
+#        April, 2021
+#  Su Mo Tu We Th Fr Sa
+#               1  2  3
+#   4  5  6  7  8  9 10
+#  11 12 13 14 15 16 17
+#  18 19 20 21 22 23 24
+#  25 26 27 28 29 30
 
 # ------------------------------- Sample Run 5 ------------------------------
-# qdttdev@DESKTOP-3LNQCIN:~$ ./cal.sh 6 2021
+# qdttdev@DESKTOP-3LNQCIN:~$ ./cal.sh Jun 21
 
-#             June, 2021
-#   Su  Mo  Tu  We  Th  Fr  Sa
-#            1   2   3   4   5
-#    6   7   8   9  10  11  12
-#   13  14  15  16  17  18  19
-#   20  21  22  23  24  25  26
-#   27  28  29  30
+#        June, 2021
+#  Su Mo Tu We Th Fr Sa
+#         1  2  3  4  5
+#   6  7  8  9 10 11 12
+#  13 14 15 16 17 18 19
+#  20 21 22 23 24 25 26
+#  27 28 29 30
 
 #!/bin/bash
 
@@ -150,8 +152,8 @@ printMonthName() # Params: month
              "July" "August" "September" "October" "November" "December" )
     
     echo
-    echo "            ${months[$m]}, $y "
-    echo "  Su  Mo  Tu  We  Th  Fr  Sa"
+    echo "       ${months[$m]}, $y"
+    echo " Su Mo Tu We Th Fr Sa"
 }
 
 # This function prints the days of the target month in Calendar format
@@ -180,7 +182,7 @@ printMonth() # Params: year, month
         for (( k = 0; k < current; k++ ))
         do            
             if [ $i -eq $month ]; then
-                echo -n "    "
+                echo -n "   "
             fi
         done
 
@@ -188,7 +190,7 @@ printMonth() # Params: year, month
         for (( j = 1; j <= days; j++ ))
         do
             if [ $i -eq $month ]; then
-                printf "%4d" "$j"
+                printf "%3d" "$j"
             fi           
             
             # Print newline to display calendar correctly
@@ -240,12 +242,11 @@ if ! [[ $month =~ $re ]]; then
     ;;
     "Dec")  month=12
     ;;
-    *)      echo "Invalid month, please try again"
+    *)      echo "Invalid month, please try again (example: Jan, Feb, Mar,...)"
             exit 0
     ;;
     esac
 fi
-
 
 # Error check for month input
 if [ $month -gt 12 -o $month -lt 1 ]; then
